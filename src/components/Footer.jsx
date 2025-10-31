@@ -10,8 +10,8 @@ const Footer = () => (
     </div>
     <div className="grid md:grid-cols-3 gap-4 mb-6 text-gray-200 text-sm">
       <p>📧 contact@techaivv.com</p>
-      <p>📞 +1 (555) 123-4567</p>
-      <p>📍 123 Digital Avenue, Tech City</p>
+      <p>📞 +91 9123456780</p>
+      <p>📍 36 Digital Avenue, Banglore</p>
     </div>
     <p className="text-gray-400 text-sm">© 2025 TechAIVV. All rights reserved.</p>
   </footer>
