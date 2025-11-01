@@ -1,39 +1,47 @@
 import React from "react";
 import ServiceCard from "../components/ServiceCard";
+import {
+  Search,
+  Megaphone,
+  Rocket,
+  MonitorSmartphone,
+  Sparkles,
+  FileText,
+} from "lucide-react";
 
 const services = [
   {
-    icon: "🎯",
+    icon: <Search className="w-10 h-10 text-indigo-500" />,
     title: "SEO Optimization",
     description:
       "Improve your website’s ranking and visibility with proven SEO techniques that drive long-term growth.",
   },
   {
-    icon: "📱",
+    icon: <Megaphone className="w-10 h-10 text-indigo-500" />,
     title: "Meta (Facebook & Instagram) Ads",
     description:
       "Reach the right audience with creative, high-converting ad campaigns optimized for maximum ROI.",
   },
   {
-    icon: "🚀",
+    icon: <Rocket className="w-10 h-10 text-indigo-500" />,
     title: "Google Ads Management",
     description:
       "Run targeted ad campaigns that bring instant traffic, leads, and measurable business results.",
   },
   {
-    icon: "💻",
+    icon: <MonitorSmartphone className="w-10 h-10 text-indigo-500" />,
     title: "Website Design & Development",
     description:
       "Build beautiful, responsive websites that reflect your brand and convert visitors into customers.",
   },
   {
-    icon: "✨",
+    icon: <Sparkles className="w-10 h-10 text-indigo-500" />,
     title: "Brand Strategy & Identity",
     description:
       "Define your voice, craft your story, and design a cohesive brand identity that stands out online.",
   },
   {
-    icon: "📝",
+    icon: <FileText className="w-10 h-10 text-indigo-500" />,
     title: "Content Marketing",
     description:
       "Engage your audience with SEO-friendly blogs, videos, and visuals that build trust and drive conversions.",
