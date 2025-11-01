@@ -71,7 +71,7 @@ const Services = () => {
       {/* CTA Section */}
       <section className="text-center py-20 px-6 bg-gradient-to-tr from-[#e52e711a] to-[#ff6a001a] border border-white/10 rounded-3xl animate-fadeInUp">
         <a
-          href="https://calendly.com/techaivv/meeting"
+          href="https://calendly.com/"
           target="_blank"
           className="inline-block px-12 py-5 text-lg font-semibold text-white rounded-full shadow-[0_10px_30px_rgba(229,46,113,0.4)] bg-gradient-to-tr from-[#e52e71] to-[#ff6a00] hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(229,46,113,0.6)] transition-all duration-500"
         >

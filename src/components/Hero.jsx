@@ -32,7 +32,7 @@ const Hero = () => (
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://calendly.com/techaivv/meeting" target="_blank"
+              href="https://calendly.com/" target="_blank"
               className="bg-white text-[#1a1a2e] px-8 py-4 rounded-xl font-semibold shadow-lg hover:-translate-y-1 transition transform duration-300"
             >
               Get a Free Consultation

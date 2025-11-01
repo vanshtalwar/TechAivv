@@ -8,7 +8,7 @@ const CTACard = () => {
         Schedule a free consultation with our digital marketing experts
       </p>
       <a
-        href="https://calendly.com/techaivv/meeting"
+        href="https://calendly.com/"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold text-sm shadow hover:-translate-y-1 transition"
