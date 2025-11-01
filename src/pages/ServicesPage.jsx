@@ -8,6 +8,7 @@ import {
   Sparkles,
   FileText,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -65,14 +66,34 @@ const Services = () => {
       </header>
 
       {/* Services Grid */}
-      <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
+      <main
+        className="
+          grid 
+          grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
+          gap-10 mb-20
+          items-stretch
+        "
+      >
         {services.map((service, i) => (
-          <ServiceCard
+          <Link
+            to="/contact"
             key={i}
-            icon={service.icon}
-            title={service.title}
-            description={service.description}
-          />
+            className="
+              block 
+              transition-transform 
+              hover:scale-[1.02]
+              h-full
+            "
+          >
+            <div className="h-full flex">
+              <ServiceCard
+                icon={service.icon}
+                title={service.title}
+                description={service.description}
+                className="flex flex-col justify-between h-full"
+              />
+            </div>
+          </Link>
         ))}
       </main>
 
@@ -81,6 +102,7 @@ const Services = () => {
         <a
           href="https://calendly.com/"
           target="_blank"
+          rel="noopener noreferrer"
           className="inline-block px-12 py-5 text-lg font-semibold text-white rounded-full shadow-[0_10px_30px_rgba(229,46,113,0.4)] bg-gradient-to-tr from-[#e52e71] to-[#ff6a00] hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(229,46,113,0.6)] transition-all duration-500"
         >
           Book a Free Consultation
