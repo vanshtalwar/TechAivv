@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => (
   <section className="relative bg-gradient-to-r from-[#e52e71] to-[#ff6a00] overflow-hidden">
@@ -31,17 +32,17 @@ const Hero = () => (
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="#contact"
+              href="https://calendly.com/techaivv/meeting" target="_blank"
               className="bg-white text-[#1a1a2e] px-8 py-4 rounded-xl font-semibold shadow-lg hover:-translate-y-1 transition transform duration-300"
             >
               Get a Free Consultation
             </a>
-            <a
-              href="#services"
+            <Link
+              to="/services"
               className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-[#1a1a2e] transition duration-300"
             >
               View Our Work
-            </a>
+            </Link>
           </div>
         </div>
 
